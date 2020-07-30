@@ -1,0 +1,86 @@
+header>img {
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+.small-logo {
+    float: right;
+}
+
+#button {
+    border-radius: 15px;
+    padding: 8px;
+    color: lightslategray;
+    font-size: 150%;
+    background-color: #ffffff;
+    border-color: lightslategray;
+    cursor: pointer;
+}
+
+#button:hover {
+    color: #34ad91;
+    border-color: #34ad91;
+}
+
+li>a {
+    color: #9697A2;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hero>p>a {
+    text-decoration: none;
+    color: #34ad91;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+ul>li>ul>li {
+    clear: both;
+    width: 100%;
+    margin-left: -50%;
+}
+
+ul>li:hover>ul,
+ul>li>ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    display: none;
+    background-color: lightpink;
+    padding: 40%;
+}
+
+li {
+    border-bottom: lightslategray;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
